@@ -4,7 +4,6 @@ import ContactSection from '@/sections/Contact';
 import EducationSection from '@/sections/Education';
 import ExperienceSection from '@/sections/Experience';
 import Header from '@/sections/Header';
-import ProjectModal from '@/sections/ProjectModel';
 import ProjectsSection from '@/sections/Projects';
 import SkillsSection from '@/sections/Skills';
 import { useState } from 'react';
@@ -63,16 +62,12 @@ export default function PortfolioPage() {
           <AboutSection />
           <ExperienceSection />
           <EducationSection />
-          <ProjectsSection onOpenModal={openModal} />
+          <ProjectsSection />
           <SkillsSection />
           <ContactSection />
         </div>
         
-        <ProjectModal
-          isOpen={modalOpen} 
-          onClose={closeModal} 
-          type={modalType}
-        />
+        
       </div>
     </>
   );
