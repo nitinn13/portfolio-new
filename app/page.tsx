@@ -3,6 +3,7 @@ import AboutSection from '@/sections/About';
 import ContactSection from '@/sections/Contact';
 import EducationSection from '@/sections/Education';
 import ExperienceSection from '@/sections/Experience';
+import GithubSection from '@/sections/GithubSection';
 import Header from '@/sections/Header';
 import ProjectsSection from '@/sections/Projects';
 import SkillsSection from '@/sections/Skills';
@@ -63,6 +64,7 @@ export default function PortfolioPage() {
           <ExperienceSection />
           <EducationSection />
           <ProjectsSection />
+          <GithubSection/>
           <SkillsSection />
           <ContactSection />
         </div>
